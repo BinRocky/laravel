@@ -10,6 +10,9 @@ use App\Http\Controllers\Controller;
 class IndexController extends Controller
 {
 	public function index(){
+//		echo date('Y-m-d H:i:s');
+//		die;
+		
 		return view('admin.index.index');
 	}
 	public function welcome(){
